@@ -1,2 +1,94 @@
-/* Colors */
-/* Fonts *//*# sourceMappingURL=style.css.map */
+@font-face {
+  font-family: Outfit Bold;
+  src: url("./fonts/Outfit-Bold.ttf");
+}
+@font-face {
+  font-family: Outfit Regular;
+  src: url("./fonts/Outfit-Regular.ttf");
+}
+/* Global Font Style */
+h1 {
+  font-size: clamp(2.4rem, 2.3296rem + 0.3005vw, 2.6rem);
+}
+
+p {
+  font-size: clamp(1.8rem, 1.7296rem + 0.3005vw, 2rem);
+  color: hsl(220deg, 15%, 55%);
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.bold {
+  font-family: Outfit Bold;
+}
+
+.regular {
+  font-family: Outfit Regular;
+}
+
+html {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(220deg, 15%, 55%);
+}
+
+/* Layout */
+.qr-code-container {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2.5rem;
+  background-color: hsl(0deg, 0%, 100%);
+}
+.qr-code-container .qr-code {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+.qr-code-container img {
+  width: 100%;
+  border-radius: 1.5rem;
+  margin-bottom: 2.5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.qr-code-container h1 {
+  margin-bottom: 1em;
+}
+.qr-code-container p {
+  margin-bottom: 2.5em;
+}
+
+/* Mobile Media Query max widht 375px */
+@media screen and (max-width: 375px) {
+  .qr-code-container {
+    width: 90%;
+  }
+  .qr-code-container .qr-code {
+    margin-top: 1.5em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+  }
+  .qr-code-container img {
+    border-radius: 1.5rem;
+  }
+}/*# sourceMappingURL=style.css.map */

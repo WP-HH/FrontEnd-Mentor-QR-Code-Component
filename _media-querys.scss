@@ -1,0 +1,16 @@
+/* Mobile Media Query max widht 375px */
+@media screen and (max-width:$mobile-width){
+    .qr-code-container{
+        width: 90%;
+
+    & .qr-code{
+        margin-top: 1.5em;
+        margin-left: 1.5em;
+        margin-right:1.5em;
+    }
+    
+    & img {
+        border-radius: 1.5rem;
+    }
+    }
+}
