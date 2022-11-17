@@ -48,7 +48,7 @@ section {
 
 /* Layout */
 .qr-code-container {
-  width: 25%;
+  width: 375px;
   display: flex;
   flex-direction: column;
   justify-content: center;
