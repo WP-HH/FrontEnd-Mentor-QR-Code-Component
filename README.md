@@ -22,8 +22,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Solution URL: [Solution URL here](https://github.com/svki-dev/FrontEnd-Mentor-QR-Code-Component)
+-   Live Site URL: [Live site URL here](https://github-projects.sven-kilcher.dev/frontend-mentor-qr-code-component/)
 
 ## My process
 
@@ -47,4 +47,4 @@ For the next projects I want to extend my SCSS skills and I also in connection w
 
 ## Author
 
--   Website - [WP Helping Hand](https://www.wp-helping-hand.com)
+-   Website - [Sven Kilcher | Dev](https://sven-kilcher.dev)
